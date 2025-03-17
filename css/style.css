@@ -1,0 +1,282 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-a{
+    width: 100%;
+    background-color: #2F3E46;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-b{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.barra-n{
+    width: 100%;
+    height: 100px;
+    background-color: #2F3E46;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-a{
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-b{
+    text-decoration: none;
+    color: white
+    
+}
+
+.nav-c{
+    padding: 0 15px;
+    list-style: none;
+}
+
+.img-banner{
+    width: 100%;
+}
+.titulo-n{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(90deg, rgba(47,62,70,1) 32%, rgba(70,143,116,1) 74%, rgba(83,192,144,1) 93%);
+    text-align: left;
+    margin: 0;
+    padding: 30px;
+    color: white;
+}
+.titulo-n>h2{
+    margin: 0;
+}
+.global-n{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(47,62,70,1) 0%, rgba(132,169,140,1) 0%, rgba(117,176,141,1) 37%, rgba(97,186,143,1) 71%, rgba(83,192,144,1) 88%);
+    height: 1046px;
+
+    display: flex;
+    flex-flow: column wrap;
+}
+.noticias{
+    width: 60%;
+    height: 1000px;
+
+}
+
+.noticias-a{
+    width: 100%;
+    height: 250px;
+}
+
+.parr-a, .parr-b{
+    width: 40%;
+    color: black;
+    font-size: 14px;
+    text-align: justify;
+    background-color: #D9D9D9;
+    padding: 5px;
+    border: solid 2px black;
+    border-radius: 6px;
+
+}
+
+.noti-a{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.img-a{
+    width: 60%;
+    height: 189px;
+    text-align: center;
+    object-fit: cover;
+}
+.noticias-b{
+    width: 100%;
+    height: 250px;
+}
+
+.noti-b{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.img-b{
+    width: 60%;
+    height: 189px;
+    text-align: center;
+    object-fit: cover;
+}
+
+.noticias-c{
+    width: 100%;
+    height: 546px;
+    background-color: #CAD2C5;}
+
+.noti-c{
+    width: 100%;
+    background-color: #9A9A9A;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+.vid-c{
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+}
+
+.otras-n{
+    width: 40%;
+    height: 400px;
+    background-color: #CAD2C5;
+
+    display: flex;
+    flex-flow: column row;
+    flex-direction: column;
+}
+
+.t-n{
+    text-align: center;
+}
+
+.link-n{
+    text-align: center;
+    text-decoration: none;
+}
+.img-c{
+    width: 100%;
+    height: 300px;
+
+}
+
+.parr-c{
+    width: 100%;
+    background-color: #D9D9D9;
+    text-align: center;
+    color: black;
+}
+.h-c{
+    width: 100%;
+    height: 103px;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.form{
+    width: 40%;
+    height: 500px;
+    padding: 50px;
+    background-color: #52796F;
+    text-align: center;
+    color: white;
+
+}
+
+.btnform{
+    width: 50%;
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 40px;
+
+}
+
+.btnr{
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.447);
+    color: rgba(255, 255, 255, 0.913);
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.redes{
+    width: 40%;
+    height: 146px;
+    background-color: #2F3E46;
+    text-align: center;
+    padding: 20px 0 0 0;
+    color: white;
+
+}
+
+.img-redes{
+    width: 100%;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.imgredes-a{
+    width: 100px;
+    text-align: center;
+}
+
+.imgredes-b{
+    width: 100px;
+    text-align: center;
+}
+
+.table-4{
+    width: 100%;
+    padding: 10px;
+}
+
+.pdf{
+    width: 100%;
+    height: 900px;
+   
+}
+
+
+
+.pie{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 36px;
+    background: linear-gradient(90deg, rgba(47,62,70,1) 32%, rgba(70,143,116,1) 74%, rgba(83,192,144,1) 93%);
+    color: white;
+}
+
